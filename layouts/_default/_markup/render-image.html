@@ -1,0 +1,23 @@
+{{ if eq .Page.Kind "page" }}
+  <img src="{{ .Page.Params.featured_image | default .Site.Params.featured_image }}" 
+       alt="{{ .Title }}" class="global-featured-image">
+{{ else }}
+  {{/* Comportamento padrão para outras imagens */}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+{{ end }}
+<!-- Force featured image in all pages -->
+{{ if .Page.Params.featured_image }}
+  <meta property="og:image" content="{{ .Page.Params.featured_image | absURL }}">
+  <div class="featured-image">
+    <img src="{{ .Page.Params.featured_image | relURL }}" 
+         alt="{{ .Title }}" class="global-featured-img">
+  </div>
+{{ else }}
+  <!-- Fallback to default -->
+  <meta property="og:image" content="{{ .Site.Params.featured_image | absURL }}">
+  <div class="featured-image">
+    <img src="{{ .Site.Params.featured_image | relURL }}" 
+         alt="{{ .Site.Title }}" class="global-featured-img">
+  </div>
+{{ end }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="img-fluid">

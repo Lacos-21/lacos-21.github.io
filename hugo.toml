@@ -1,0 +1,56 @@
+baseURL = 'https://lacos21.github.io/'
+languageCode = 'pt-br'
+title = 'Lacos21'
+theme = 'ananke'
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Permite HTML quando necessário
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+
+[params]
+  description = "Laboratório de Conservação no Século 21"
+  featured_image = "/images/featured-default.jpg"  # Imagem padrão para todas as páginas
+  site_logo = "/images/logo-lacos21.png"  # Sua logo no canto superior esquerdo
+  enableSharingButtons = true
+  sharingButtons = ["twitter", "facebook", "linkedin"]
+  
+  # Paleta de cores em tons de verde (códigos HEX)
+  background_color_class = "bg-green-900"
+  text_color = "green-50"
+  custom_css = ["custom.css"]
+
+[[params.ananke_socials]]
+  name = "twitter"
+  url = "https://twitter.com/lacos21"
+[[params.ananke_socials]]
+  name = "github"
+  url = "https://github.com/lacos21"
+[[params.ananke_socials]]
+  name = "instagram"
+  url = "https://instagram.com/lacos21"
+
+[menu]
+  [[menu.main]]
+    name = "Artigos"
+    url = "/artigos"
+    weight = 1
+  [[menu.main]]
+    name = "Equipe"
+    url = "/equipe"
+    weight = 2
+  [[menu.main]]
+    name = "Projetos"
+    url = "/projetos"
+    weight = 3
+  [[menu.main]]
+    name = "MAV"
+    url = "/mav"
+    weight = 4

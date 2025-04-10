@@ -1,0 +1,94 @@
+:root {
+    --green-dark: #1B5E20;
+    --green-light: #A5D6A7;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: var(--green-dark) !important;
+  }
+  /* Links */
+  a {
+    color: var(--green-dark) !important;
+  }
+  /* Botões */
+  .button {
+    background-color: var(--green-light) !important;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .project-card {
+    border: 1px solid var(--green-light);
+    padding: 1rem;
+  }
+
+  .featured-image {
+    margin: 0 auto 2rem;
+    max-width: 100%;
+    text-align: center;
+  }
+  .global-featured-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+/* Container principal */
+.areas-container {
+    width: 100%;
+    padding: 2rem 0;
+    background: #f8f9fa;
+    margin: 2rem 0;
+  }
+  
+  /* Grid de 4 colunas */
+  .areas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilo dos cards */
+  .area-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .area-icon {
+    font-size: 2.5rem;
+    color: #2E7D32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .area-button {
+    display: inline-block;
+    background: #2E7D32;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 992px) {
+    .areas-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .areas-grid {
+      grid-template-columns: 1fr;
+    }
+  }

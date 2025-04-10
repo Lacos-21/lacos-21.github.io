@@ -1,0 +1,13 @@
+<div class="column" style="flex: 1; min-width: 200px; padding: 1rem; background: #f5f5f5; border-radius: 8px;">
+    {{ if .Get "icon" }}
+        <div style="font-size: 2rem; text-align: center; margin-bottom: 0.5rem;">
+            {{ .Get "icon" }}
+        </div>
+    {{ end }}
+    {{ if .Get "title" }}
+        <h3 style="text-align: center; margin-top: 0;">{{ .Get "title" }}</h3>
+    {{ end }}
+    <div style="text-align: center;">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

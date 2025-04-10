@@ -1,0 +1,5 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" }}
+<a href="{{ $url }}" class="custom-button" style="display: inline-block; background-color: #2E7D32; color: white; padding: 0.8rem 1.5rem; border-radius: 4px; text-decoration: none; margin: 1rem 0; transition: all 0.3s ease;">
+    {{ $text }}
+</a>

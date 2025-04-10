@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freshwater on Lacos21</title>
+    <link>http://localhost:1313/tags/freshwater/</link>
+    <description>Recent content in Freshwater on Lacos21</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/freshwater/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advances and shortfalls in knowledge of Antarctic terrestrial and freshwater biodiversity</title>
+      <link>http://localhost:1313/artigos/advances_and_shortfalls_in_knowledge/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artigos/advances_and_shortfalls_in_knowledge/</guid>
+      <description>&lt;p&gt;Novo Artigo do Lacos na Science&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../static/images/reinos.png&#34; alt=&#34;&#34; title=&#34;fig2&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Antarctica harbors many distinctive features of life, yet much about the diversity and functioning of Antarctica’s life remains unknown. Evolutionary histories and functional ecology are well understood only for vertebrates, whereas research on invertebrates is largely limited to species descriptions and some studies on environmental tolerances. Knowledge on Antarctic vegetation cover showcases the challenges of characterizing population trends for most groups. Recent community-level microbial studies have provided insights into the functioning of life at its limits. Overall, biotic interactions remain largely unknown across all groups, restricted to basic information on trophic level placement. Insufficient knowledge of many groups limits the understanding of ecological processes on the continent. Remedies for the current situation rely on identifying the caveats of each ecological discipline and finding targeted solutions. Such precise delimitation of knowledge gaps will enable a more aware, representative, and strategic systematic conservation planning of Antarctica.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
