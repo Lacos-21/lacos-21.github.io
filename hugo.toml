@@ -6,14 +6,11 @@ theme = 'ananke'
 [pagination]
   pagerSize = 10
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true  # Permite HTML quando necessário
+[markup.goldmark.renderer]
+  unsafe = true  # Permite HTML quando necessário
 
 [imaging]
-  resampleFilter = "CatmullRom"
-  quality = 75
+  quality = 85
 
 [params]
   description = "Laboratório de Conservação no Século 21"

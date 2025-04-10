@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://lacos21.github.io/artigos/advances_and_shortfalls_in_knowledge/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/tags/freshwater/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/tags/richard/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/tags/science/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/tags/shortfalls/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/tags/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/mav/ep1t1/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/artigos/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/mav/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/equipe/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/projetos/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod></url><url><loc>https://lacos21.github.io/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/artigos/advances_and_shortfalls_in_knowledge/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/freshwater/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/richard/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/science/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/shortfalls/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mav/ep1t1/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artigos/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mav/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/equipe/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+</urlset>

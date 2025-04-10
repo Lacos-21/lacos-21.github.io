@@ -2,12 +2,13 @@
 title: "Advances and shortfalls in knowledge of Antarctic
 terrestrial and freshwater biodiversity"
 date: 2023-10-26
-featured_image: /images/antartica.jpg
+featured_image: /images/antartica.png
 tags: ["SCIENCE", "Shortfalls", "Freshwater", "Richard"]
 ---
 Novo Artigo do Lacos na Science
 
-![](../../static/images/reinos.png "fig2")
+
+![reinos](/images/reinos.png "reinos")
 
 ## Abstract
 
