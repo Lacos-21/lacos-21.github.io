@@ -8,19 +8,44 @@ description: "Pesquisa inovadora em biodiversidade e sustentabilidade"
 
 ## Nossas Áreas
 
-<div class="full-width-table-container">
-  
-| | | | |
-|-|-|-|-|
-| **<div class="area-header">📄<br>Artigos</div>** | **<div class="area-header">👥<br>Equipe</div>** | **<div class="area-header">🌱<br>Projetos</div>** | **<div class="area-header">🌊<br>MAV</div>** |
-| Publicações científicas | Nossos pesquisadores | Iniciativas em andamento | Mar à Vista |
-| <div class="area-btn">[Publicações científicas](/artigos)</div> | <div class="area-btn">[Nossos pesquisadores](/equipe)</div> | <div class="area-btn">[Projetos](/projetos)</div> | <div class="area-btn">[Mar à Vista](/mav)</div> |
-
+<div class="areas-outer-container">
+  <div class="areas-inner-container">
+    <div class="areas-grid">
+      <!-- Bloco 1 -->
+      <div class="area-card">
+        <div class="area-icon">📄</div>
+        <h3>Artigos</h3>
+        <p>Publicações científicas</p>
+        <a href="/artigos" class="area-btn">Publicações</a>
+      </div>      
+      <!-- Bloco 2 -->
+      <div class="area-card">
+        <div class="area-icon">👥</div>
+        <h3>Equipe</h3>
+        <p>Nossos pesquisadores</p>
+        <a href="/equipe" class="area-btn">Equipe</a>
+      </div>      
+      <!-- Bloco 3 -->
+      <div class="area-card">
+        <div class="area-icon">🌱</div>
+        <h3>Projetos</h3>
+        <p>Iniciativas em andamento</p>
+        <a href="/projetos" class="area-btn">Projetos</a>
+      </div>      
+      <!-- Bloco 4 -->
+      <div class="area-card">
+        <div class="area-icon">🌊</div>
+        <h3>MAV</h3>
+        <p>Mar à Vista</p>
+        <a href="/mav" class="area-btn">Acessar</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
-  /* Container principal - Ocupa 100% da largura */
-  .full-width-table-container {
+  /* CONTAINER EXTERNO - LARGURA TOTAL */
+  .areas-outer-container {
     width: 100vw;
     position: relative;
     left: 50%;
@@ -28,77 +53,90 @@ description: "Pesquisa inovadora em biodiversidade e sustentabilidade"
     margin-left: -50vw;
     margin-right: -50vw;
     background: #f8f9fa;
-    padding: 2rem 0;
-    margin: 3rem 0;
+    padding: 3rem 0;
+    overflow: hidden;
   }
 
-  /* Tabela centralizada com largura máxima */
-  .full-width-table-container table {
-    width: 100%;
+  /* CONTAINER INTERNO - CONTROLE DE LARGURA */
+  .areas-inner-container {
     max-width: 1400px;
     margin: 0 auto;
-    border-collapse: collapse;
+    padding: 0 20px;
   }
 
-  /* Células da tabela */
-  .full-width-table-container td {
-    text-align: center;
-    padding: 1.5rem;
+  /* GRID FLEXÍVEL */
+  .areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  /* CARDS */
+  .area-card {
     background: white;
-    border: none;
-    vertical-align: top;
-    width: 25%;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 280px;
   }
 
-  /* Cabeçalhos das áreas */
-  .area-header {
-    font-size: 1.1rem;
-    line-height: 1.4;
+  .area-icon {
+    font-size: 2.8rem;
+    color: #2E7D32;
+    margin-bottom: 1rem;
   }
 
-  /* Botões */
-  .area-btn a {
+  .area-card h3 {
+    margin: 0.5rem 0 1rem;
+    color: #2c3e50;
+    font-size: 1.3rem;
+  }
+
+  .area-card p {
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    min-height: 4.5rem;
+  }
+
+  /* BOTÕES */
+  .area-btn {
     display: inline-block;
     background: #2E7D32;
     color: white !important;
-    padding: 0.6rem 1.8rem;
-    border-radius: 4px;
+    padding: 0.8rem 2.2rem;
+    border-radius: 6px;
     text-decoration: none;
-    margin-top: 1rem;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
+    font-size: 1rem;
   }
 
-  .area-btn a:hover {
+  .area-btn:hover {
     background: #1B5E20;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
   }
 
-  /* Responsividade */
+  /* RESPONSIVIDADE */
   @media (max-width: 1200px) {
-    .full-width-table-container {
-      padding: 1rem 0;
-    }
-    .full-width-table-container td {
-      padding: 1rem;
+    .areas-grid {
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
     }
   }
 
   @media (max-width: 768px) {
-    .full-width-table-container table, 
-    .full-width-table-container tbody, 
-    .full-width-table-container tr, 
-    .full-width-table-container td {
-      display: block;
-      width: 100%;
+    .areas-grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
     }
-    .full-width-table-container td {
-      padding: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .area-btn a {
-      padding: 0.5rem 1.5rem;
+    
+    .area-card {
+      padding: 1.8rem;
     }
   }
 </style>

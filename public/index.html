@@ -55,7 +55,7 @@
   <meta itemprop="description" content="Pesquisa inovadora em biodiversidade e sustentabilidade">
   <meta itemprop="datePublished" content="2023-10-26T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-10-26T00:00:00+00:00">
-  <meta itemprop="wordCount" content="28">
+  <meta itemprop="wordCount" content="24">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Laboratório de Conservação no Século 21">
   <meta name="twitter:description" content="Pesquisa inovadora em biodiversidade e sustentabilidade">
@@ -133,41 +133,43 @@
       
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links green-50">
     <h2 id="nossas-áreas">Nossas Áreas</h2>
-<div class="full-width-table-container">
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong><div class="area-header">📄<br>Artigos</div></strong></td>
-          <td><strong><div class="area-header">👥<br>Equipe</div></strong></td>
-          <td><strong><div class="area-header">🌱<br>Projetos</div></strong></td>
-          <td><strong><div class="area-header">🌊<br>MAV</div></strong></td>
-      </tr>
-      <tr>
-          <td>Publicações científicas</td>
-          <td>Nossos pesquisadores</td>
-          <td>Iniciativas em andamento</td>
-          <td>Mar à Vista</td>
-      </tr>
-      <tr>
-          <td><div class="area-btn"><a href="/artigos">Publicações científicas</a></div></td>
-          <td><div class="area-btn"><a href="/equipe">Nossos pesquisadores</a></div></td>
-          <td><div class="area-btn"><a href="/projetos">Projetos</a></div></td>
-          <td><div class="area-btn"><a href="/mav">Mar à Vista</a></div></td>
-      </tr>
-  </tbody>
-</table>
+<div class="areas-outer-container">
+  <div class="areas-inner-container">
+    <div class="areas-grid">
+      <!-- Bloco 1 -->
+      <div class="area-card">
+        <div class="area-icon">📄</div>
+        <h3>Artigos</h3>
+        <p>Publicações científicas</p>
+        <a href="/artigos" class="area-btn">Publicações</a>
+      </div>      
+      <!-- Bloco 2 -->
+      <div class="area-card">
+        <div class="area-icon">👥</div>
+        <h3>Equipe</h3>
+        <p>Nossos pesquisadores</p>
+        <a href="/equipe" class="area-btn">Equipe</a>
+      </div>      
+      <!-- Bloco 3 -->
+      <div class="area-card">
+        <div class="area-icon">🌱</div>
+        <h3>Projetos</h3>
+        <p>Iniciativas em andamento</p>
+        <a href="/projetos" class="area-btn">Projetos</a>
+      </div>      
+      <!-- Bloco 4 -->
+      <div class="area-card">
+        <div class="area-icon">🌊</div>
+        <h3>MAV</h3>
+        <p>Mar à Vista</p>
+        <a href="/mav" class="area-btn">Acessar</a>
+      </div>
+    </div>
+  </div>
 </div>
 <style>
-  /* Container principal - Ocupa 100% da largura */
-  .full-width-table-container {
+  /* CONTAINER EXTERNO - LARGURA TOTAL */
+  .areas-outer-container {
     width: 100vw;
     position: relative;
     left: 50%;
@@ -175,77 +177,90 @@
     margin-left: -50vw;
     margin-right: -50vw;
     background: #f8f9fa;
-    padding: 2rem 0;
-    margin: 3rem 0;
+    padding: 3rem 0;
+    overflow: hidden;
   }
 
-  /* Tabela centralizada com largura máxima */
-  .full-width-table-container table {
-    width: 100%;
+  /* CONTAINER INTERNO - CONTROLE DE LARGURA */
+  .areas-inner-container {
     max-width: 1400px;
     margin: 0 auto;
-    border-collapse: collapse;
+    padding: 0 20px;
   }
 
-  /* Células da tabela */
-  .full-width-table-container td {
-    text-align: center;
-    padding: 1.5rem;
+  /* GRID FLEXÍVEL */
+  .areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  /* CARDS */
+  .area-card {
     background: white;
-    border: none;
-    vertical-align: top;
-    width: 25%;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 280px;
   }
 
-  /* Cabeçalhos das áreas */
-  .area-header {
-    font-size: 1.1rem;
-    line-height: 1.4;
+  .area-icon {
+    font-size: 2.8rem;
+    color: #2E7D32;
+    margin-bottom: 1rem;
   }
 
-  /* Botões */
-  .area-btn a {
+  .area-card h3 {
+    margin: 0.5rem 0 1rem;
+    color: #2c3e50;
+    font-size: 1.3rem;
+  }
+
+  .area-card p {
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    min-height: 4.5rem;
+  }
+
+  /* BOTÕES */
+  .area-btn {
     display: inline-block;
     background: #2E7D32;
     color: white !important;
-    padding: 0.6rem 1.8rem;
-    border-radius: 4px;
+    padding: 0.8rem 2.2rem;
+    border-radius: 6px;
     text-decoration: none;
-    margin-top: 1rem;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
+    font-size: 1rem;
   }
 
-  .area-btn a:hover {
+  .area-btn:hover {
     background: #1B5E20;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
   }
 
-  /* Responsividade */
+  /* RESPONSIVIDADE */
   @media (max-width: 1200px) {
-    .full-width-table-container {
-      padding: 1rem 0;
-    }
-    .full-width-table-container td {
-      padding: 1rem;
+    .areas-grid {
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
     }
   }
 
   @media (max-width: 768px) {
-    .full-width-table-container table, 
-    .full-width-table-container tbody, 
-    .full-width-table-container tr, 
-    .full-width-table-container td {
-      display: block;
-      width: 100%;
+    .areas-grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
     }
-    .full-width-table-container td {
-      padding: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .area-btn a {
-      padding: 0.5rem 1.5rem;
+    
+    .area-card {
+      padding: 1.8rem;
     }
   }
 </style>
