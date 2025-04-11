@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nossa Equipe on Lacos21</title>
-    <link>http://localhost:1313/equipe/</link>
-    <description>Recent content in Nossa Equipe on Lacos21</description>
+    <title>Biodiversidade on Lacos21</title>
+    <link>http://localhost:1313/tags/biodiversidade/</link>
+    <description>Recent content in Biodiversidade on Lacos21</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/equipe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/biodiversidade/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Richard James Ladle</title>
       <link>http://localhost:1313/equipe/richard_james_ladle/</link>

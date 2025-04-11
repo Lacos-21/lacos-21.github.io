@@ -1,8 +1,8 @@
 ---
 title: "Nossa Equipe"
-date: 2023-10-25
+date: 2025-04-10
 type: "page"
 featured_image: "/images/featured-default.jpg"
 description: "Conheça os pesquisadores do Lacos21"
 ---
-Profissionais dedicados à conservação no século XXI.
+Profissionais dedicados à conservação no século 21.

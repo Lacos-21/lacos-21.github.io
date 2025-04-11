@@ -1,6 +1,6 @@
 ---
 title: "Projetos em Andamento"
-date: 2023-10-25
+date: 2025-04-10
 type: "page"
 layout: "projects"  # Layout customizado (crie em layouts/section/projects.html se quiser)
 featured_image: "/images/featured-default.jpg"

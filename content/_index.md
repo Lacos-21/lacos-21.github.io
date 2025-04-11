@@ -1,11 +1,10 @@
 ---
 title: "Laboratório de Conservação no Século 21"
-date: 2023-10-26
+date: 2025-04-10
 type: "page"
 featured_image: "/images/featured-default.jpg"
 description: "Pesquisa inovadora em biodiversidade e sustentabilidade"
 ---
-
 ## Nossas Áreas
 
 <div class="areas-outer-container">
@@ -17,21 +16,21 @@ description: "Pesquisa inovadora em biodiversidade e sustentabilidade"
         <h3>Artigos</h3>
         <p>Publicações científicas</p>
         <a href="/artigos" class="area-btn">Publicações</a>
-      </div>      
+      </div>    
       <!-- Bloco 2 -->
       <div class="area-card">
         <div class="area-icon">👥</div>
         <h3>Equipe</h3>
         <p>Nossos pesquisadores</p>
         <a href="/equipe" class="area-btn">Equipe</a>
-      </div>      
+      </div>    
       <!-- Bloco 3 -->
       <div class="area-card">
         <div class="area-icon">🌱</div>
         <h3>Projetos</h3>
         <p>Iniciativas em andamento</p>
         <a href="/projetos" class="area-btn">Projetos</a>
-      </div>      
+      </div>    
       <!-- Bloco 4 -->
       <div class="area-card">
         <div class="area-icon">🌊</div>
@@ -134,7 +133,7 @@ description: "Pesquisa inovadora em biodiversidade e sustentabilidade"
       max-width: 400px;
       margin: 0 auto;
     }
-    
+  
     .area-card {
       padding: 1.8rem;
     }

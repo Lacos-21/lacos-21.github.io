@@ -1,12 +1,10 @@
 ---
 title: "1º Episódio da 1ª Temporada do Mar à Vista"
-date: 2023-10-25
-type: "page"
+date: 2025-04-10
 featured_image: "/images/mav.jpg"
 description: "💙🌊Cultura oceânica para crianças ✨"
 ---
 {{< youtube WDxFNPXiuI8 >}}
-
 
 Hora de conhecer um pouco mais sobre a Área de Proteção Ambiental (APA) Costa dos Corais e se divertir bastante com a turminha do Mar à Vista!
 
