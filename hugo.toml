@@ -24,31 +24,12 @@ theme = 'ananke'
   text_color = "green-50"
   custom_css = ["custom.css"]
 
-[params.ananke.social.twitter]
-username = "lacos21"
-[params.ananke.social.github]
-username = "lacos21"
-[params.ananke.social.instagram]
-username = "lacos21"
-
-[[params.ananke_socials]]
-  name = "twitter"
-  url = "https://twitter.com/lacos21"
-[[params.ananke_socials]]
-  name = "github"
-  url = "https://github.com/lacos21"
-[[params.ananke_socials]]
-  name = "instagram"
-  url = "https://instagram.com/lacos21"
-
-[ananke.social.follow]
-new_window_icon = true
-networks = [
-  "twitter",
-  "instagram",
-  "github"
-]
-
+[params.social]
+  twitter = "https://twitter.com/lacos21"
+  facebook = "https://facebook.com/lacos21"
+  instagram = "https://instagram.com/lacos21"
+  youtube = "https://youtube.com/Lacos21"
+  github = "https://github.com/Lacos-21"
 [menu]
   [[menu.main]]
     name = "Artigos"
