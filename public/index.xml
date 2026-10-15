@@ -6,8 +6,22 @@
     <description>Recent content in Laboratório de Conservação no Século 21 on Lacos21</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 14:47:51 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artigo 1 do Sinbiose</title>
+      <link>http://localhost:1313/projetos/sinbiose/produtos/artigo1/</link>
+      <pubDate>Thu, 15 Oct 2026 14:47:51 -0300</pubDate>
+      <guid>http://localhost:1313/projetos/sinbiose/produtos/artigo1/</guid>
+      <description>&lt;h1 id=&#34;artigo-do-sinbiose&#34;&gt;Artigo do Sinbiose&lt;/h1&gt;&#xA;&lt;p&gt;coloque o resumo do artigo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atualizacao 1 do Sinbiose</title>
+      <link>http://localhost:1313/projetos/sinbiose/atualizacoes/atualizacao1/</link>
+      <pubDate>Thu, 15 Oct 2026 14:47:51 -0300</pubDate>
+      <guid>http://localhost:1313/projetos/sinbiose/atualizacoes/atualizacao1/</guid>
+      <description>&lt;h1 id=&#34;atualização-1-agora-temos-site&#34;&gt;Atualização 1: Agora temos site&lt;/h1&gt;&#xA;&lt;p&gt;coloque o site&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1º Episódio da 1ª Temporada do Mar à Vista</title>
       <link>http://localhost:1313/mav/ep1t1/</link>
@@ -27,6 +41,13 @@
       <link>http://localhost:1313/equipe/richard_james_ladle/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/equipe/richard_james_ladle/</guid>
+      <description>&lt;p&gt;Possui graduação em Zoologia (Bsc) - Newcastle University (1990) e doutorado em Doctor of Philosophy (Zoo-Eco) - University of Oxford (1993). Atualmente é professor titular da Universidade Federal de Alagoas. Atuando principalmente nos seguintes temas: conservação de biodiversidade, biodiversidade, biogeografia e areas protegidas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Richard James Ladle</title>
+      <link>http://localhost:1313/projetos/sinbiose/equipe/richard_james_ladle/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projetos/sinbiose/equipe/richard_james_ladle/</guid>
       <description>&lt;p&gt;Possui graduação em Zoologia (Bsc) - Newcastle University (1990) e doutorado em Doctor of Philosophy (Zoo-Eco) - University of Oxford (1993). Atualmente é professor titular da Universidade Federal de Alagoas. Atuando principalmente nos seguintes temas: conservação de biodiversidade, biodiversidade, biogeografia e areas protegidas.&lt;/p&gt;</description>
     </item>
   </channel>

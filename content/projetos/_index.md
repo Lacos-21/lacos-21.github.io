@@ -34,10 +34,10 @@ description: "Iniciativas ativas do nosso laboratório"
       </div>  
       <!-- Bloco 4 -->
       <div class="area-card">
-        <div class="area-icon">🏛️</div>
-        <h3>Governança</h3>
-        <p>Governaça Ambiental e Áreas Protegidas</p>
-        <a href="/governanca" class="area-btn">Leia</a>
+        <div class="area-icon">⚖️</div>
+        <h3>Sinbiose</h3>
+        <p>EquiDados</p>
+        <a href="/projetos/sinbiose" class="area-btn">Saiba Mais</a>
       </div>
     </div>
   </div>

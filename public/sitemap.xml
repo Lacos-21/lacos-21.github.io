@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projetos/sinbiose/produtos/artigo1/</loc>
+    <lastmod>2026-10-15T14:47:51-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/atualizacoes/atualizacao1/</loc>
+    <lastmod>2026-10-15T14:47:51-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/atualizacoes/</loc>
+    <lastmod>2026-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/equipe/</loc>
+    <lastmod>2026-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/produtos/</loc>
+    <lastmod>2026-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/</loc>
+    <lastmod>2026-10-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/mav/ep1t1/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,6 +57,9 @@
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/equipe/richard_james_ladle/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projetos/sinbiose/equipe/richard_james_ladle/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/science/</loc>
