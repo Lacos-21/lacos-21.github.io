@@ -1,7 +1,7 @@
 ---
 title: "Evellyne Barros"
-date: 2026-10-16
-featured_image: "/images/equipe/eve.jpg"
+date: 2026-10-21
+featured_image: "/images/equipe/eveupdate.png" 
 tags: ["Conservação", "Biodiversidade",  "Áreas protegidas"]
 description: "Bolsista"
 ---
