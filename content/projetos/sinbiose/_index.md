@@ -1,8 +1,8 @@
 ---
 title: "Sinbiose"
-date: 2026-10-15
+date: 2026-10-27
 type: "page"
-featured_image: "/images/mav.jpg"
+featured_image: "/images/CApa_Site.png" 
 description: "Projeto Sinbiose"
 ---
 ## Nossas Áreas
